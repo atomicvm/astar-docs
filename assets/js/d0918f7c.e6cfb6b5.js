@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_1=self.webpackChunkdocs_1||[]).push([[196],{6111:function(e){e.exports=JSON.parse('{"permalink":"/docs-test/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
