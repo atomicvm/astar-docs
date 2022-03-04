@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://astarnetwork.github.io/astar-docs/blog"/>
     <subtitle>Astar Docs Blog</subtitle>
-    <icon>https://astarnetwork.github.io/astar-docs/img/favicon.ico</icon>
+    <icon>https://astarnetwork.github.io/astar-docs/img/fav.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
