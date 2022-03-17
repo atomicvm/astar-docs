@@ -4,12 +4,29 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+require('dotenv').config();
+const { NODE_ENV } = process.env;
+
+const urls = {
+  development: 'localhost',
+  production: 'https://astarnetwork.github.io'
+};
+
+const baseUrls = {
+  development: '/',
+  production: '/astar-docs/'
+}
+
+const url = urls[NODE_ENV];
+const baseUrl = baseUrls[NODE_ENV];
+
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Astar Docs',
   tagline: 'Your one-stop shop for everything Astar.',
-  url: 'https://astarnetwork.github.io',
-  baseUrl: '/astar-docs/',
+  url: url,
+  baseUrl: baseUrl,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/fav.png',
