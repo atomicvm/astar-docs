@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_1=self.webpackChunkdocs_1||[]).push([[7789],{9233:function(e){e.exports=JSON.parse('{"permalink":"/astar-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
